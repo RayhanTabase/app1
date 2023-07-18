@@ -1,0 +1,11 @@
+.container-profile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-profile .login {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}

@@ -1,0 +1,10 @@
+.featured-section {
+  display: flex;
+  gap: 2rem;
+}
+
+.featured-section .display-two {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}

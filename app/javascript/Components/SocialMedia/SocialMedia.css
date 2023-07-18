@@ -1,0 +1,7 @@
+.social-icon-banner {
+  filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(100%) contrast(100%);
+}
+
+.social-icon-banner:hover {
+  filter: invert(77%) sepia(9%) saturate(530%) hue-rotate(172deg) brightness(89%) contrast(85%);
+}

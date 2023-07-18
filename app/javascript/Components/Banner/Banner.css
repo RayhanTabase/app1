@@ -1,0 +1,43 @@
+/* Default styles */
+.banner {
+  max-width: 100%;
+  background: #5ECE7A;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  padding: 0.3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  color: #fff;
+}
+
+.banner .section1 {
+  display: flex;
+  align-items: center;
+}
+
+.banner .section2 {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  color: white;
+}
+
+/* Breakpoint for smaller screens */
+@media (max-width: 768px) {
+  .banner .section2 {
+    display: none;
+  }
+
+  .banner .section1 {
+    flex-basis: 100%;
+    justify-content: center;
+    padding: 0 1rem;
+  }
+
+  .banner {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}

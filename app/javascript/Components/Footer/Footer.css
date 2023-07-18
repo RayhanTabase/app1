@@ -1,0 +1,122 @@
+/* Base Styles */
+
+.footer {
+  background: #f7f7f7;
+  padding-top: 10rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.footer .newsletter {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.footer .newsletter h2 {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.footer .newsletter p {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #777;
+}
+
+.footer .newsletter p br {
+  display: block;
+  content: '';
+  margin-bottom: 0.5rem;
+}
+
+.footer .contact {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  gap: 1.5rem;
+  background: #fff;
+}
+
+.footer .contact .contact-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  color: #555;
+}
+
+.footer .contact .contact-item i {
+  font-size: 1.2rem;
+}
+
+.footer .contact .contact-item .text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer .contact .contact-item .text p {
+  color: #777;
+  font-size: 0.9rem;
+  line-height: 1.2;
+}
+
+.footer hr {
+  margin: 0;
+  padding: 0;
+  opacity: 1;
+  color: #777;
+}
+
+.footer .other-info {
+  display: none;
+}
+
+.footer .copyright {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  color: #777;
+  font-size: 0.9rem;
+}
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+  .footer .contact {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem;
+  } 
+
+  .footer .other-info {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 3rem;
+  }
+
+  .footer .other-info .other-item {
+    border-right: 1px solid #ddd;
+    padding-right: 3rem;
+  }
+
+  .footer .other-info .other-item-multiple {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .footer .other-info .other-item:last-child {
+    border-left: 1px solid #ddd;
+    border-right: none;
+    padding-right: none;
+    padding-left: 3rem;
+  }
+}
